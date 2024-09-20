@@ -24,6 +24,10 @@ python main.py
 
 ### Result 
 
+| Col1 | Col2 |
+|---|---|
+| val1 | val2 |
+
 Logistic Regression - Accuracy: 0.9973302822273074, F1-score: 0.9962243072305119 => elevée 
 
 Logistic Regression - Feature Importance:
