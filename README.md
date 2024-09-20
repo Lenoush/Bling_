@@ -56,68 +56,40 @@ python main.py
 
 ### result transaction 
 
-Logistic Regression - Accuracy: 0.6011493779917432, F1-score: 0.5145404263765965 => pas super bien : normal car pas que les transactions.
-Logistic Regression - Feature Importance:
-recurrent_group_id       0.946329
-account_id               0.844271
-recurrent                0.797317
-date                     0.626211
-created_at               0.577907
-id                       0.438061
-user_id                  0.358175
-is_bling                 0.297061
-balance                  0.126662
-is_debt                  0.100294
-is_debit_reject          0.081438
-is_n26_rejected_debit    0.060717
-is_gambling              0.053043
-category                 0.051548
-is_debit_refund          0.045429
-is_unemployment          0.032650
-amount                   0.029185
-is_interim               0.028146
-is_check                 0.023328
-is_deleted               0.021819
-is_loan                  0.019411
-bridge_category          0.018392
-is_uber                  0.010231
-is_caf                   0.007763
-is_debt_collection       0.006454
-is_btc                   0.001075
-is_principal_account     0.000000
-dtype: float64
+| Valeurs explicatif               | Logistic Regression          | Decision Tree                | Random Forest                |
+|----------------------------------|------------------------------|------------------------------|------------------------------|
+| Accuracy                         | 0.6011 (pas super bien)      | 0.7099                       | 0.6886                       |
+| F1-score                         | 0.5145 (pas super bien)      | 0.7065                       | 0.6788                       |
+| recurrent_group_id               | 0.9463                       | 0.0354                       | 0.0258                       |
+| account_id                       | 0.8443                       | 0.3711                       | 0.1780                       |
+| recurrent                        | 0.7973                       | -                            | -                            |
+| date                             | 0.6262                       | 0.0752                       | 0.0962                       |
+| created_at                       | 0.5779                       | 0.0575                       | 0.1244                       |
+| id                               | 0.4381                       | 0.0638                       | 0.1375                       |
+| user_id                          | 0.3582                       | 0.2686                       | 0.1640                       |
+| is_bling                         | 0.2971                       | -                            | -                            |
+| balance                          | 0.1267                       | 0.0618                       | 0.1035                       |
+| is_debt                          | 0.1003                       | -                            | -                            |
+| is_debit_reject                  | 0.0814                       | -                            | -                            |
+| is_n26_rejected_debit           | 0.0607                       | -                            | -                            |
+| is_gambling                      | 0.0530                       | -                            | -                            |
+| category                         | 0.0515                       | 0.0117                       | 0.0376                       |
+| is_debit_refund                 | 0.0454                       | -                            | -                            |
+| is_unemployment                  | 0.0327                       | -                            | -                            |
+| amount                           | 0.0292                       | 0.0339                       | 0.0772                       |
+| is_interim                       | 0.0281                       | -                            | -                            |
+| is_check                         | 0.0233                       | -                            | -                            |
+| is_deleted                       | 0.0218                       | -                            | -                            |
+| is_loan                          | 0.0194                       | -                            | -                            |
+| bridge_category                  | 0.0184                       | 0.0120                       | 0.0375                       |
+| is_uber                          | 0.0102                       | -                            | -                            |
+| is_caf                           | 0.0078                       | -                            | -                            |
+| is_debt_collection               | 0.0065                       | -                            | -                            |
+| is_btc                           | 0.0011                       | -                            | -                            |
+| is_principal_account             | 0.0000                       | -                            | -                            |
 
-
-Decision Tree - Accuracy: 0.7099164712175452, F1-score: 0.7065020830229256
-Decision Tree - Feature Importance:
-account_id               0.371096 
-user_id                  0.268631
-date                     0.075224
-id                       0.063817
-balance                  0.061810
-created_at               0.057464
-recurrent_group_id       0.035374
-amount                   0.033910
-bridge_category          0.011964
-category                 0.011725
-
-Decision Tree - Accuracy: 0.6886296616329945, F1-score: 0.6787796711191676
-Random Forest - Feature Importance:
-account_id               0.177984
-user_id                  0.164033
-id                       0.137543
-created_at               0.124357
-balance                  0.103509
-date                     0.096161
-amount                   0.077244
-category                 0.037612
-bridge_category          0.037494
-recurrent_group_id       0.025809
 
 
 ## Result 
 
-1. 
-<tb><td> hfgvjedv </td></tb>
 
-3. 
