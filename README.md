@@ -58,38 +58,34 @@ python main.py
 
 | Valeurs explicatif               | Logistic Regression          | Decision Tree                | Random Forest                |
 |----------------------------------|------------------------------|------------------------------|------------------------------|
-| Accuracy                         | 0.6011 (pas super bien)      | 0.7099                       | 0.6886                       |
-| F1-score                         | 0.5145 (pas super bien)      | 0.7065                       | 0.6788                       |
-| recurrent_group_id               | 0.9463                       | 0.0354                       | 0.0258                       |
-| account_id                       | 0.8443                       | 0.3711                       | 0.1780                       |
-| recurrent                        | 0.7973                       | -                            | -                            |
-| date                             | 0.6262                       | 0.0752                       | 0.0962                       |
-| created_at                       | 0.5779                       | 0.0575                       | 0.1244                       |
-| id                               | 0.4381                       | 0.0638                       | 0.1375                       |
-| user_id                          | 0.3582                       | 0.2686                       | 0.1640                       |
-| is_bling                         | 0.2971                       | -                            | -                            |
-| balance                          | 0.1267                       | 0.0618                       | 0.1035                       |
-| is_debt                          | 0.1003                       | -                            | -                            |
-| is_debit_reject                  | 0.0814                       | -                            | -                            |
-| is_n26_rejected_debit           | 0.0607                       | -                            | -                            |
-| is_gambling                      | 0.0530                       | -                            | -                            |
-| category                         | 0.0515                       | 0.0117                       | 0.0376                       |
-| is_debit_refund                 | 0.0454                       | -                            | -                            |
-| is_unemployment                  | 0.0327                       | -                            | -                            |
-| amount                           | 0.0292                       | 0.0339                       | 0.0772                       |
-| is_interim                       | 0.0281                       | -                            | -                            |
-| is_check                         | 0.0233                       | -                            | -                            |
-| is_deleted                       | 0.0218                       | -                            | -                            |
-| is_loan                          | 0.0194                       | -                            | -                            |
-| bridge_category                  | 0.0184                       | 0.0120                       | 0.0375                       |
-| is_uber                          | 0.0102                       | -                            | -                            |
-| is_caf                           | 0.0078                       | -                            | -                            |
-| is_debt_collection               | 0.0065                       | -                            | -                            |
-| is_btc                           | 0.0011                       | -                            | -                            |
-| is_principal_account             | 0.0000                       | -                            | -                            |
-
-
-
-## Result 
+| Accuracy                         | 0.6011                       | 0.7099                       | 0.6887                       |
+| F1-score                         | 0.5145                       | 0.7065                       | 0.6788                       |
+| recurrent_group_id               | 0.9463                       | 0.0353                       | 0.0263                       |
+| account_id                       | 0.8443                       | 0.3717                       | 0.1795                       |
+| recurrent                        | 0.7973                       | 0.0004                       | 0.0039                       |
+| date                             | 0.6262                       | 0.0751                       | 0.0959                       |
+| created_at                       | 0.5779                       | 0.0514                       | 0.1241                       |
+| id                               | 0.4381                       | 0.0697                       | 0.1381                       |
+| user_id                          | 0.3582                       | 0.2683                       | 0.1618                       |
+| is_bling                         | 0.2971                       | 0.0013                       | 0.0018                       |
+| balance                          | 0.1267                       | 0.0619                       | 0.1037                       |
+| is_debt                          | 0.1003                       | 0.0008                       | 0.0015                       |
+| is_debit_reject                  | 0.0814                       | 0.0007                       | 0.0013                       |
+| is_n26_rejected_debit           | 0.0607                       | 0.0001                       | 0.0002                       |
+| is_gambling                      | 0.0530                       | 0.0016                       | 0.0023                       |
+| category                         | 0.0515                       | 0.0118                       | 0.0377                       |
+| is_debit_refund                 | 0.0454                       | 0.0001                       | 0.0005                       |
+| is_unemployment                  | 0.0327                       | 0.0002                       | 0.0002                       |
+| amount                           | 0.0292                       | 0.0339                       | 0.0774                       |
+| is_interim                       | 0.0281                       | 0.0002                       | 0.0003                       |
+| is_check                         | 0.0233                       | 0.0001                       | 0.0003                       |
+| is_deleted                       | 0.0218                       | 0.0031                       | 0.0043                       |
+| is_loan                          | 0.0194                       | 0.0002                       | 0.0004                       |
+| bridge_category                  | 0.0184                       | 0.0120                       | 0.0376                       |
+| is_uber                          | 0.0102                       | 0.0000                       | 0.0001                       |
+| is_caf                           | 0.0078                       | 0.0002                       | 0.0005                       |
+| is_debt_collection               | 0.0065                       | 0.0000                       | 0.0001                       |
+| is_btc                           | 0.0011                       | 0.0000                       | 0.0002                       |
+| is_principal_account             | 0.0000                       | 0.0000                       | 0.0000                       |
 
 
