@@ -24,8 +24,8 @@ python main.py
 
 ### Result 
 
-| Valeurs explicatif               | Logistic Regression  | Decision Tree         | Random Forest         |
-|----------------------------------|----------------------|-----------------------|-----------------------|
+| Valeurs explicatif               | Logistic Regression  | Decision Tree         | Random Forest         |   |
+|----------------------------------|----------------------|-----------------------|-----------------------|---|
 | Accuracy                         | 0.9973 (élevée)      | 0.9956 (élevée)       | 0.9981 (élevée)       |
 | F1-score                         | 0.9962 (élevée)      | 0.9957 (élevée)       | 0.9977 (élevée)       |
 | reimbursement_date               | 1.4351               | 0.0016                | 0.0067                |
